@@ -11,7 +11,7 @@ body {
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
   grid-template-areas: 
-      ". . . . ."
+      ". . wl . ."
       ". bt bt bt ."
       ". . rm . ."
       ". tb tb tb .";
@@ -76,4 +76,16 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+
+.sushi-wallet {
+  /* grid-area: wl; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wallet-input {
+  width: 200px;
+  height: 15px;
 }
