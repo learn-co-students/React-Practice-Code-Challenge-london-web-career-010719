@@ -21,7 +21,7 @@ class App extends Component {
 
   eatSushi = sushi => {
     if (this.state.balance - sushi.price < 0) {
-      alert('you aint got the wesge for dat fish fella')
+      alert('you aint got the wedge for dat fish fella')
       return
     }
     this.setState({
